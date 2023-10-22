@@ -14,14 +14,14 @@ Data :
 I am looking on two different datasets:
 
 1. Tv Show subtitles dataset from https://www.kaggle.com/datasets/albenft/game-of-thrones-script-all-seasons
-
+I have attached this csv file above
 Dataset format: csv
 
 ->This dataset contains columns like season, episode, character name, dialogue.
 -> In data cleaning, we can look for NA values.
 
 2. IMSDB is an online repository of film scripts consisting of approximately 1300 screenplays.Since the screenplays are stored in plain text on the site it made it relatively easy to design a scraper to iterate over each script url with Scrapy.
-
+I am yet to scrape this data.
 Dataset format: json
 
 
