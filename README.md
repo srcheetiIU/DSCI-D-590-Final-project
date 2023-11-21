@@ -12,24 +12,18 @@ Our target users group are scriptwriters, filmmakers, film studios etc.
 
 Data:
 IMSDB is an online repository of film scripts consisting of approximately 1300 screenplays.Since the screenplays are stored in plain text on the site it made it relatively easy to design a scraper to iterate over each script url with Scrapy.
-Datasetlink: https://drive.google.com/file/d/1mc4BTIMTdo0yCZEJAW_iq8bs5uoxe-M5/view?usp=sharing
-Dataset format: json
+Dataset: Filtered the IMSDB dataset and selected Inglorious Bastards script for model generation
+Dataset format: txt
 
 
 Functionalities:
 
 NLP Functions:
-In both the dataset cases, the NLP tasks the application performs are Text Analysis and Text generation. If I work further on the IMSDB dataset,  I am planning on using Language models like GPT-2 , BERT etc. If I work further on the TV show dataset, I am planning on using models like Neural Networks, transformers.
-
+The NLP tasks the application performs are Text Analysis and Text generation. I have implemented LSTM architecture for Text generation. 
 User interaction:
 
 The possibilities for user Interaction through our app are:
 
-1. If I work on the TV shows dataset further. I would like to keep user interaction functionalities like:
--> selecting the tv show format in which they want to generate the dialogues.
-->A text box to enter the initial words with which the dialogue should start.
--> A filter specifying the maximum length of the dialogue.
-
-2. If I work on the IMSDB dataset further.I would like to keep user interaction functionalities like:
+1. If I work on the IMSDB dataset further.I would like to keep user interaction functionalities like:
 ->Maximum script length
 ->a text box for content required.
